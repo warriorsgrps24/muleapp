@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="simple-appFlow" doc:id="a8868848-9e67-43ec-9600-98a101dc6d4f" >
 		<http:listener doc:name="Listener" doc:id="08ac636c-7ac5-4fa2-8d7c-dd99f3d79771" config-ref="HTTP_Listener_config" path="/project"/>
-		<logger level="INFO" doc:name="project" doc:id="7dbba5e2-d737-45ba-b253-6d43999090ef" message="project"/>
-		<set-payload value="project" doc:name="project" doc:id="306076a0-c2c2-4229-ba4d-c40bb20b50af" />
+		<logger level="INFO" doc:name="project8888" doc:id="7dbba5e2-d737-45ba-b253-6d43999090ef" message="project"/>
+		<set-payload value="project8888" doc:name="project" doc:id="306076a0-c2c2-4229-ba4d-c40bb20b50af" />
 	</flow>
 </mule>
