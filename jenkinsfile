@@ -22,7 +22,7 @@ environment {
                 ANYPOINT_CREDENTIALS = credentials(platform.credentials)
             }
 steps{
-bat 'mvn clean package deploy -DmuleDeploy Dmule=4.4.0 DUSERNAME=${ANYPOINT_CREDENTIALS_USR}'
+bat 'mvn clean deploy -DmuleDeploy Dmule=4.4.0 DUSERNAME=${ANYPOINT_CREDENTIALS_USR}'
 }
 }
 }
